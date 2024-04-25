@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4026.6">
+  <POU Name="MAIN" Id="{443be2ee-236d-4b6a-a245-3675c985b178}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	light: bool;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[//proj for testing]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
